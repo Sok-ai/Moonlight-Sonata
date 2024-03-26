@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Лунная соната</title>
+    <link
+      href="css/style.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="css/swiper-bundle.min.css"
+    />
+    <link rel="icon" href="img/favicon.ico" type="./img/favicon.ico">
+  </head>
+  <body>
+    <div class="main-bg">
+      <header>
+        <div class="header-container">
+          <a
+            href="/"
+            class="logo-link"
+          >
+            <img
+              alt="Кроссы и точка"
+              src="./img/Logo.svg"
+            />
+          </a>
+          <nav class="header__menu js-header-menu">
+            <ul class="nav-list">
+              <li class="nav-item js-unclick">
+                <a
+                  href="#about"
+                  class="nav-link"
+                  >О нас</a
+                >
+              </li>
+              <li class="nav-item js-unclick">
+                <a
+                  href="#progress"
+                  class="nav-link"
+                  >Достижения</a
+                >
+              </li>
+              <li class="nav-item js-unclick">
+                <a
+                  href="#author"
+                  class="nav-link"
+                  >Автора</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <a
+            href="#repertoire"
+            class="button-a"
+            >Репертуар
+          </a>
+          <a
+            class="header__burger js-burger"
+            href="javascript:void(0)"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+        </div>
+      </header>
+      <div class="main-bg-text">
+        <h1>оркестр <span>Лунная соната</span></h1>
+        <p>Музыка всегда рядом!</p>
+        <a
+          href="#repertoire"
+          class="main-bg-text__button button-a"
+          >Репертуар</a
+        >
+      </div>
+    </div>
+    <main>
+      <article class="about" id="about">
+        <div class="about-text">
+          <h2>О нас</h2>
+          <h3>Музыкальный квартет, олицетворяющий элегантность и деловой стиль</h3>
+          <p>
+            Приглашает вас насладиться уникальной атмосферой своих музыкальных произведений. Наши мелодии доступны всем желающим, и мы гордимся тем, что создаем
+            музыку, способную достичь сердец каждого слушателя. Мы специально ориентируемся на семейные пары и пенсионеров, приглашая их насладиться нашими
+            выступлениями.
+          </p>
+          <p>
+            Великолепное исполнение и свежий подход к классике делают нас привлекательными как для ценителей музыки, так и для тех, кто впервые открыл для себя
+            магию звуков. Позвольте себе окунуться в мир утонченной красоты и прекрасных мелодий вместе с нами.
+          </p>
+        </div>
+        <picture>
+            <source srcset="./img/mobile-about.png" media="(max-width: 320px)" alt="about">
+                <img
+                    class="about_img"
+                    src="./img/about.png"
+                    alt="about"
+                />
+            </picture>
+      </article>
+      <article class="progress" id="progress">
+        <h2>Достижения</h2>
+        <ul class="list">
+          <li class="items list-bg1">
+            <span>Топ-10</span>
+            <p>Лучших оркестровых коллективов мира</p>
+          </li>
+          <li class="items list-bg2">
+            <span>Лучшая скрипка 2024г</span>
+            <p>Наминация по версии “Золотой Орел 2024”</p>
+          </li>
+          <li class="items list-bg3">
+            <span>123 человека</span>
+            <p>Играют в оркестре</p>
+          </li>
+          <li class="items list-bg4">
+            <span>15 стран</span>
+            <p>Лучших оркестровых коллективов мира</p>
+          </li>
+        </ul>
+      </article>
+      <article class="repertoire" id="repertoire">
+        <h2>Репертуар</h2>
+        <img
+        class="repertoire_bg"
+          src="./img/reperBG.svg"
+          alt=""
+        />
+        <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="repertoire-slide repertoire-bg1">
+                <span class="repertoire-slide_time">
+                    <img src="img/dateSlide.svg" alt="" width="12" height="13">
+                    16 янв - 16 фев
+                </span>
+                <div class="repertoire-slide_text">
+                    <h3>Страсти по Тилю</h3>
+                    <p>Постановка - <a href="#">Новый экспериментальный театр</a></p>
+                </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="repertoire-slide repertoire-bg2">
+                <span class="repertoire-slide_time">
+                    <img src="img/dateSlide.svg" alt="" width="12" height="13">
+                    16 янв - 16 фев
+                </span>
+                <div class="repertoire-slide_text">
+                    <h3>Пигмалион</h3>
+                    <p>Постановка - <a href="#">Новый экспериментальный театр</a></p>
+                </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="repertoire-slide repertoire-bg3">
+                <span class="repertoire-slide_time">
+                    <img src="img/dateSlide.svg" alt="" width="12" height="13">
+                    16 янв - 16 фев
+                </span>
+                <div class="repertoire-slide_text">
+                    <h3>Вий</h3>
+                    <p>Постановка - <a href="#">Новый экспериментальный театр</a></p>
+                </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="repertoire-slide repertoire-bg4">
+                <span class="repertoire-slide_time">
+                    <img src="img/dateSlide.svg" alt="" width="12" height="13">
+                    16 янв - 16 фев
+                </span>
+                <div class="repertoire-slide_text">
+                    <h3>Мертвые души</h3>
+                    <p>Постановка - <a href="#">Новый экспериментальный театр</a></p>
+                </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="repertoire-slide repertoire-bg5">
+                <span class="repertoire-slide_time">
+                    <img src="img/dateSlide.svg" alt="" width="12" height="13">
+                    16 янв - 16 фев
+                </span>
+                <div class="repertoire-slide_text">
+                    <h3>РОК-БАЛЛАДЫ</h3>
+                    <p>Постановка - <a href="#">Новый экспериментальный театр</a></p>
+                </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="repertoire-slide repertoire-bg6">
+                <span class="repertoire-slide_time">
+                    <img src="img/dateSlide.svg" alt="" width="12" height="13">
+                    16 янв - 16 фев
+                </span>
+                <div class="repertoire-slide_text">
+                    <h3>Гарри Поттер</h3>
+                    <p>Постановка - <a href="#">Новый экспериментальный театр</a></p>
+                </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="repertoire-slide repertoire-bg7">
+                <span class="repertoire-slide_time">
+                    <img src="img/dateSlide.svg" alt="" width="12" height="13">
+                    16 янв - 16 фев
+                </span>
+                <div class="repertoire-slide_text">
+                    <h3>Concord orchestra</h3>
+                    <p>Постановка - <a href="#">Новый экспериментальный театр</a></p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button ">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+      </article>
+      <article
+        class="auth"
+        id="author"
+      >
+        <div class="auth-companent">
+          <img
+            src="img/Auth1.png"
+            alt="auth"
+            class="auth_img" 
+            draggable="false"
+          />
+          <h3 class="auth-title">Isabel Judez (b.1992)</h3>
+          <div class="auth-line"></div>
+          <p class="auth-text">Венесуэльский художник и архитектор испанского происхождения, живущий и работающий в Париже</p>
+          <a
+            href="/"
+            class="auth-link"
+            >Узнать больше</a
+          >
+        </div>
+        <div class="companent-line">
+          <div class="line line-up"></div>
+          <h2>Авторы</h2>
+          <div class="line line-down"></div>
+        </div>
+        <div class="auth-companent">
+          <img
+            src="img/Auth2.png"
+            alt="auth"
+            class="auth_img"
+            draggable="false"
+          />
+          <h3 class="auth-title">Iga Vandenhove (b.1989)</h3>
+          <div class="auth-line"></div>
+          <p class="auth-text">Французский художник по звуку и визуализации, режиссер-документалист</p>
+          <a
+            href="/"
+            class="auth-link"
+            >Узнать больше</a
+          >
+        </div>
+      </article>
+      <article class="contacts">
+        <div class="contacts-info">
+            <h2>Контакты</h2>
+            <div class="contacts-info__field">
+                <p class="contacts-info__text">info@instilier.ru</p>
+                <span class="contacts-info__subtext">E-mail</span>
+            </div>
+            <div class="contacts-info__field">
+                <p class="contacts-info__text">8 - 400 -346 - 8963</p>
+                <span class="contacts-info__subtext">Телефон</span>
+            </div>
+            <div class="contacts-info__field">
+                <p class="contacts-info__text">​Маршала Чуйкова, 4а​2, 3 этаж
+                    Центр, Центральный район,</p>
+                <span class="contacts-info__subtext">Адрес</span>
+            </div>
+        </div>
+        <div class="contacts-form">
+            <h3>Задайте нам вопрос</h2>
+            <p>Ждем ваши сообщения с нетерпением</p>
+            <form action="php/index.php" method="POST" name="call">
+                <input type="text" name="Name" placeholder="Ваше имя">
+                <input type="email" name="adress" placeholder="Электронная почта">
+                <textarea name="text" cols="20" rows="3" placeholder="Ваш вопрос"></textarea>
+                <button type="submit" class="form__button" >Отправить заявку</button>
+                <span>Отправляя данные вы соглашаетесь с 
+                    <a href="/">правила обработки данных</a>
+                </span>
+            </form>
+        </div>
+      </article>
+      <footer>
+        <div></div>
+        <nav class="footer-nav">
+            <a href="/" class="footer-link_logo"><img src="img/footer.svg" alt="logo" class="footer-logo"></a>
+            <p>Copyright © 2024
+                Ищенко Никита ИС-4-1</p>
+            <a href="#repertoire" class="button-a footer-link">Репертуар</a>
+            </nav>
+      </footer>
+    </main>
+
+    <script src="js/burger.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        loop: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        breakpoints: {
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 8,
+          },
+          1366: {
+            slidesPerView: 4,
+            spaceBetween: 10,
+          }
+        },
+      });
+    </script>
+  </body>
+</html>
