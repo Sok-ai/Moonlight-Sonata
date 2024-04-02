@@ -53,6 +53,7 @@ a {
 
 a:hover:not(.nav-link, .button-a) {
   color: rgb(8, 25, 181);
+  transition: 0.5s ease;
 }
 
 h2 {
@@ -100,7 +101,7 @@ button,
   font-size: 12px;
   background-color: rgba(255, 255, 255, 0);
   text-transform: uppercase;
-  height: 48px;
+  height: 50px;
   text-align: center;
   color: #ffffff;
 }
@@ -109,6 +110,7 @@ button:hover,
 .button-a:hover {
   background-color: rgb(255, 255, 255);
   color: #000;
+  transition: 0.7s ease;
 }
 
 /* Header(START) */
@@ -155,6 +157,7 @@ nav {
 
 .nav-link:hover {
   opacity: 100%;
+  transition: 0.5s ease;
 }
 
 .header__burger {
@@ -468,7 +471,6 @@ h1 span {
 }
 
 .auth_img {
-    
   max-width: 236px;
   margin-bottom: 26px;
 }
@@ -669,9 +671,9 @@ footer div {
   color: #000;
 }
 .footer-link:hover {
-  border: none;
   color: #fff;
   background: #000;
+  transition: 0.5s ease;
 }
 
 /* FOOTER(END) */
